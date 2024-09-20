@@ -82,6 +82,7 @@ body {
     position: relative;
     overflow: visible;
     z-index: 1;
+    margin-bottom: 2rem;
 }
 
 .hero::before {
@@ -129,7 +130,7 @@ body {
 }
 
 /* Info container styles */
-.info-container {
+/* .info-container {
     max-width: 80rem;
     margin: 20px auto;
     display: flex;
@@ -170,5 +171,205 @@ body {
 }
 
 .showcasetext {
+    color: black;
+} */
 
+
+
+/* Style for the BestBrands container */
+.BestBrands {
+    display: flex;
+    width: 80%;
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.bestbrandsD1 {
+    width: 35%;
+    padding: 20px;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+    /* background-color: #f4f4f4; */
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.bbtitle1 {
+    font-size: 4rem;
+    margin-bottom: -20px;
+}
+
+.bbtext1 {
+    font-size: 2rem;
+    margin-bottom: -0.6rem;
+}
+
+.options1 {
+    font-size: 2rem;
+}
+
+.options2 {
+    font-size: 1.2rem;
+}
+
+.divider1,
+.divider2 {
+    border: none;
+    height: 0.3rem;
+    background-color: #ffffff;
+    margin: 30px 0;
+    border-radius: 0.2rem;
+}
+
+.bestbrandsD2 {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.bbcard1,
+.bbcard2,
+.bbcard3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 3px solid #e6e6e6;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.bbcard1 {
+    /* background-color: #7790ed; */
+    background-color: #a3a3a3;
+    color: #ffffff;
+}
+
+.bbcard1 h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.bbcard1 p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: auto;
+}
+
+.bbcard1 button {
+    display: block;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: #7790ed;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bbcard1 button:hover {
+    background-color: #90a3e9;
+    color: #ffffff;
+}
+
+.bbcard2 {
+    background-color: rgb(135, 135, 135);
+    color: #ffffff;
+}
+
+.bbcard2 h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.bbcard2 p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: auto;
+}
+
+.bbcard2 button {
+    display: block;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: #7790ed;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bbcard2 button:hover {
+    background-color: #90a3e9;
+    color: #ffffff;
+}
+
+.bbcard3 {
+    background-color: rgb(107, 107, 107);
+    color: #ffffff;
+}
+
+.bbcard3 h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.bbcard3 p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: auto;
+}
+
+.bbcard3 button {
+    display: block;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0.6rem;
+    background-color: #7790ed;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bbcard3 button:hover {
+    background-color: #90a3e9;
+    color: #ffffff;
+}
+
+.mostbuyedcars {
+    background-color: rgb(107, 107, 107);
+}
+
+.mostbuyedcars h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
